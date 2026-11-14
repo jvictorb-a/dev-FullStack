@@ -1,9 +1,8 @@
-
 # ⛽ Calculadora de Álcool ou Gasolina
 
 <p align="center">
-  <b>Primeiro projeto prático desenvolvido no módulo de JavaScript do curso Full Stack.</b><br>
-  Uma aplicação web leve e intuitiva para ajudar motoristas a decidirem qual combustível compensa mais na hora de abastecer.
+  <b>Aplicação web desenvolvida para consolidar fundamentos de JavaScript, manipulação do DOM e boas práticas de estruturação de front-end.</b><br>
+  Uma solução prática e direta para calcular o custo-benefício entre combustíveis na hora de abastecer.
 </p>
 
 <p align="center">
@@ -16,27 +15,28 @@
 
 ## 💡 Sobre o Projeto
 
-Este projeto foi o meu **pontapé inicial** na prática de lógica de programação com JavaScript. O objetivo principal foi criar uma calculadora interativa baseada na famosa **regra dos 70%**: se o preço do litro do álcool dividido pelo da gasolina for maior ou igual a **0.7**, a gasolina é mais vantajosa; caso contrário, vale mais a pena abastecer com álcool.
+Este projeto coloca em prática conceitos essenciais de desenvolvimento web e lógica de programação aplicados a um problema real. A aplicação implementa a **regra dos 70%** para comparar o rendimento energético e financeiro entre etanol e gasolina: caso a razão entre o preço do álcool e o da gasolina seja maior ou igual a **0.7**, o sistema indica o abastecimento com gasolina; caso contrário, recomenda o álcool.
 
-A aplicação valida os campos de entrada, aceita formatações com vírgula (padrão brasileiro) e atualiza o DOM em tempo real para exibir o resultado ao usuário.
-
----
-
-## 🛠️ Tecnologias e Ferramentas Utilizadas
-
-O projeto foi construído utilizando as seguintes tecnologias:
-
-* **HTML5:** Estruturação semântica da página.
-* **CSS3 & Bootstrap 4.5:** Estilização responsiva, componentes de cartão (*cards*) e alertas visuais.
-* **JavaScript (Vanilla):** Lógica de validação de campos, manipulação do DOM e cálculo matemático.
-* **Git & GitHub:** Versionamento e controle de código-fonte.
+Além da lógica matemática, o foco do desenvolvimento foi aplicar **separação de responsabilidades** (mantendo a camada de comportamento isolada da estrutura HTML), tratamento de entradas do usuário (conversão de strings e suporte ao padrão decimal brasileiro com vírgula) e feedback dinâmico na interface.
 
 ---
 
-## 🚀 Como Executar o Projeto Localmente
+## 🛠️ Tecnologias e Conceitos Aplicados
 
-Se quiser rodar o projeto na sua máquina, siga os passos abaixo:
+* **HTML5:** Estruturação semântica e acessibilidade de formulários.
+* **CSS3 & Bootstrap 4.5:** Prototipação rápida, responsividade e componentes visuais (*cards* e alertas).
+* **JavaScript (ES6+):** Validação de dados, conversão de tipos (`parseFloat`), manipulação de strings e atualização dinâmica do DOM.
+* **Git & GitHub:** Controle de versão com histórico limpo e organização modular de diretórios.
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/jvictorb-a/dev-FullStack.git](https://github.com/jvictorb-a/dev-FullStack.git)
+---
+
+## 📂 Estrutura de Pastas
+
+A arquitetura do projeto foi pensada para manter o código limpo e fácil de dar manutenção:
+
+```text
+alcool-gasolina/
+├── js/
+│   └── script.js    # Regras de negócio, validações e manipulação do DOM
+├── index.html       # Estrutura da interface e integração com Bootstrap
+└── README.md        # Documentação técnica do projeto
