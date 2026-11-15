@@ -22,10 +22,6 @@ Cada módulo deste repositório segue uma estrutura simples:
 
 Contém códigos desenvolvidos durante o estudo dos conteúdos, servindo como material de consulta e revisão.
 
-###  Exercícios
-
-Contém exercícios resolvidos individualmente para reforçar os conceitos estudados e desenvolver habilidades de resolução de problemas.
-
 ###  Projetos
 
 Contém aplicações práticas desenvolvidas para aplicar os conhecimentos adquiridos em cenários mais próximos do desenvolvimento real.
