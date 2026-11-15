@@ -28,4 +28,4 @@ A função principal `choosePhrase()` realiza três etapas claras e diretas:
 
 3. **Renderização:** Coloca a frase selecionada no elemento HTML com o ID `phrase`, alterando o conteúdo com `innerHTML`.
 
-```javascript
+```javascript```
