@@ -14,16 +14,6 @@ O propósito desta seção é registrar o aprendizado contínuo, consolidar conc
 - Aplicar boas práticas de desenvolvimento.
 - Construir uma base sólida para tecnologias do ecossistema JavaScript, como Node.js, TypeScript, React e Next.js.
 
-## Organização
-
-### Aulas
-
-Contém códigos desenvolvidos durante o estudo dos conteúdos e exemplos utilizados para compreender os conceitos apresentados.
-
-### Exercícios
-
-Contém exercícios resolvidos individualmente com o objetivo de praticar, revisar e consolidar os conhecimentos adquiridos.
-
 ### Projetos
 
 Contém aplicações práticas desenvolvidas para transformar teoria em experiência, aplicando os conceitos estudados em cenários mais próximos do desenvolvimento real.
